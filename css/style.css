@@ -113,12 +113,13 @@ button, a {
 }
 
 .btn-secondary {
-    background-color: var(--destaque-forte);
+    background-color: transparent;
+    border: 2px solid var(--destaque-forte);
     transition: .3s;
 }
 
 .btn-secondary:hover {
-    background-color: var(--destaque);
+    background-color: var(--destaque-forte);
 }
 
 section {
