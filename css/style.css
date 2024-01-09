@@ -169,6 +169,11 @@ section {
     button, a {
         margin: auto;
     }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -194,6 +199,11 @@ section {
     
     section {
         padding: 40px 20px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
     }
 }
 
