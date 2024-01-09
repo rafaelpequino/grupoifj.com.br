@@ -453,10 +453,19 @@ img.foto_peq {
     gap: 40px;
 }
 
+.project {
+    height: max-content;
+}
+
 .project > img {
     display: block;
     margin: 30px auto;
     height: 100px;
+}
+
+.project > a {
+    display: block;
+    align-self: end;
 }
 
 @media (max-width: 1000px) {
