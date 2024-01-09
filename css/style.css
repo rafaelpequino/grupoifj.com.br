@@ -466,8 +466,8 @@ img.foto_peq {
     }
 
     .project > img {
-        width: 80vw;
-        max-width: 300px;
+        width: 60vw;
+        max-width: 250px;
         height: auto;
     }
     
